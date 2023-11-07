@@ -12,15 +12,17 @@ body {
 
 .inner {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 200px 200px 200px;
+	/*grid-template-columns: 1fr 1fr;*/
+	grid-template-columns: 1fr;
+	/*grid-template-rows: 200px 200px 200px;*/
+	grid-template-rows: 1fr;
 }
 
-.img {
-	width: 150px;
+.shop-item {
+	text-align: center;
 }
 
-.item {
+.card-form {
 	text-align: center;
 }
 
@@ -35,6 +37,10 @@ body {
 	font-weight: 700;
 
 	transition: background .2s linear;
+}
+
+.img {
+	width: 150px;
 }
 
 .btn:hover {
